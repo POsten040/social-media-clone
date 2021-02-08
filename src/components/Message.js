@@ -3,7 +3,7 @@ import React from "react";
 function Message(){
   return (
     <React.Fragment>
-      <h1>Message</h1>
+      <a href="Ref-to-Message">Messages</a>
     </React.Fragment>
   );
 }

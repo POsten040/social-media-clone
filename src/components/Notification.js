@@ -2,7 +2,7 @@ import React from "react";
 
 function Notification(){
   return (
-    <h2>Notification</h2>
+    <a href="Ref-to-Notification">Notifications</a>
   );
 }
 

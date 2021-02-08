@@ -1,17 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Container from "react-bootstrap/Container";
 
 function Post(props){
   return (
     <>
-      <div class="container">
-        <h4>{props.name}</h4>
+      <Container>
+        <h4 id="post-name">{props.name}</h4>
           <div class="inner-container">
-            <p>{props.content}</p>
-            <p>{props.date}</p>
+            <p id="post-content">{props.content}</p>
+            <p id="post-date">{props.date}</p>
           </div>
           <hr/>
-      </div>
+      </Container>
     </>
   );
 }
